@@ -1,0 +1,10 @@
+.DS_Store
+README.md
+setup.py
+ffi48/.DS_Store
+ffi48/__init__.py
+ffi48/ffi48.py
+ffi48.egg-info/PKG-INFO
+ffi48.egg-info/SOURCES.txt
+ffi48.egg-info/dependency_links.txt
+ffi48.egg-info/top_level.txt

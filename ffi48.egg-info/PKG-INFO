@@ -1,0 +1,39 @@
+Metadata-Version: 2.2
+Name: ffi48
+Version: 0.1.0
+Summary: A package to classify SIC codes into Fama and French 48 industries
+Home-page: https://github.com/azazhang/ffi48
+Author: Ang Zhang
+Author-email: az@azhang.eu.org
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: requires-python
+Dynamic: summary
+
+# ffi48
+
+A Python package to classify SIC codes into Fama and French 48 industries.
+
+## Installation
+
+```bash
+pip install ffi48
+```
+
+## Usage
+
+```python
+from ffi48 import ffi48
+
+result = ffi48(2000)
+print(result)  # Output: {'FFI48': 2, 'FFI48_desc': 'Food'}
+```
